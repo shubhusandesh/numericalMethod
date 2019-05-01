@@ -2,8 +2,9 @@
 #include<stdio.h>
 #include<conio.h>
 #include<math.h>
- main()
+void main()
 {
+	clrscr();
    int i,n;
    float a,b,h,sum,Ict;
    float F(float x);
@@ -21,11 +22,11 @@
    }
    Ict=sum*h;
    printf("\nThe integration between %f and %f at h=%f is %f",a,b,h,Ict);
-   getche();
+   getch();
 }
 float F(float x)
 {
 	float f;
-	f= ;
+	f=1-exp(-x/2.0) ;
    return (f);
 }

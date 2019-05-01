@@ -2,11 +2,12 @@
 #include<stdio.h>
 #include<conio.h>
 #include<math.h>
-#define MAX 5
+#define MAX 10
 #define E 0.0001
-#define f(x) sin(x)+3*x+2
+#define f(x) x*x-4*x-10
 main()
 {
+	clrscr();
    int count=0;
    float x1,x2,x3,f1,f2;
    printf("\nEnter the two value of x1 and x2\n");

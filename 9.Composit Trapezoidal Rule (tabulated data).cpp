@@ -3,9 +3,10 @@
 #include<conio.h>
 #include<math.h>
 #define max 15
- main()
+void main()
 {
-	int n,n1,n2,i;
+	clrscr();
+   int n,n1,n2,i;
    float a,b,h,sum,ict,x[max],y[max];
    printf("\nEnter the number of data points:");
    printf("\nn=");scanf("%d",&n);

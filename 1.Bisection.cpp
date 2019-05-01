@@ -5,8 +5,9 @@
 #define MAX 100
 #define E 0.00001
 #define f(x) x*x-4*x-10
- main()
+void main()
 {
+	clrscr();
    int count=0;
    float x0,x1,x2,f0,f1,f2;
    printf("Enter the value of x1\n");
